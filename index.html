@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Release Data</title>
+
+  <!-- Adding Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+
+  <!-- Adding CSS -->
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <header>
+    <img src="icons/dlogo.svg" alt="D Language Logo" width="200">
+    <h1>Compare dmd releases</h1>
+  </header>
+  
+  <main>
+    <canvas class="release-chart"></canvas>
+
+    <div class="js-release-data">
+    </div>
+  </main>
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script type="module" src="scripts/loadRelease.js"></script>
+  <script type="module" src="scripts/chart.js"></script>
+</body>
+</html>

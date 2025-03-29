@@ -1,0 +1,26 @@
+[
+  {
+    "release_ver": "3.1.0",
+    "user_time": "7.10",
+    "system_time": "0.35",
+    "cpu_usage": "99%",
+    "max_memory": "319528",
+    "page_size": "4096"
+  },
+  {
+    "release_ver": "2.0.2",
+    "user_time": "8.90",
+    "system_time": "0.78",
+    "cpu_usage": "99%",
+    "max_memory": "364511",
+    "page_size": "4096"
+  },
+  {
+    "release_ver": "1.0.0",
+    "user_time": "10.12",
+    "system_time": "1.35",
+    "cpu_usage": "99%",
+    "max_memory": "419068",
+    "page_size": "4096"
+  }
+]

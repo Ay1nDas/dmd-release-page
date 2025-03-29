@@ -1,0 +1,80 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* 
+  Primary Color: #B03931
+  Primary Shade: #98312A
+
+  Gray: ##F5F5F5
+  Gray border: #CCC
+*/
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Roboto Slab", sans-serif;
+  color: #333;
+  /* width: 800px; */
+  /* margin: 0 auto; */
+  /* padding: 0 24px; */
+}
+
+header{
+  background-color: #B03931;
+  color: #FFF;
+  display: flex;
+  padding: 0 96px;
+}
+
+h1{
+  flex: 1;
+  text-align: center;
+  margin-right: 200px;
+  font-size: 24px;
+}
+
+main{
+  width: 800px;
+  margin: 0 auto;
+  /* background-color: bisque; */
+  position: relative;
+}
+
+
+
+.release{
+  /* margin-top: 48px; */
+  padding: 24px;
+  padding-top: 48px;
+  /* background-color:bisque; */
+  gap: 24px;
+}
+
+.build-version a:link, .build-version a:visited{
+  color: #B03931;
+  text-decoration: none;
+}
+
+.build-version a:hover{
+  text-decoration: underline;
+}
+
+.test-data{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.test-data td{
+  padding: 8px;
+  border: 1px solid #CCC;
+}
